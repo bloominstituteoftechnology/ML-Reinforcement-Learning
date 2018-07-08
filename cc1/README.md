@@ -74,9 +74,34 @@ https://docs.docker.com/samples/library/hello-world/
 You should explore the suggested resources, but for now once you've got
 `hello-world` working you should move to the text task.
 
-## Goal 2 - Docker Compose and Open AI Gym
+## Goal 2 - Docker Compose and OpenAI Gym
 
+You've got Docker, now it's time to run something useful - the OpenAI Gym, a
+toolkit for reinforcement learning. You can see a bit about what it does here:
+https://gym.openai.com/docs/
+
+Those documents instruct on how to install locally via `pip`, but a full working
+setup can be quite complicated (Gym also needs a library to do the actual
+numerical computation, e.g. TensorFlow, and often other dependencies). To get
+started more efficiently we'll use a Docker container prepared for this purpose:
 https://github.com/ageron/handson-ml/tree/master/docker
+
+To use this container do the following steps (in a terminal):
+
+1. Get to an appropriate working directory (look up `mkdir` and `cd` if you're
+  unfamiliar, or see: https://hellowebbooks.com/learn-command-line/)
+2. `git clone https://github.com/ageron/handson-ml` - get the repo locally
+3. `cd handson-ml/docker/` - get to the Docker subdirectory
+4. Follow the instructions in the `docker/README.md`
+5. Once `make run` succeeds, you should have a URL to access Jupyter in Docker
+
+Note that you may have to replace the host in the URL with `0.0.0.0`, depending
+on your Docker networking settings. For other troubleshooting, refer to the
+documentation and chat for help.
+
+Once you've got it working, verify by opening `16_reinforcement_learning.ipynb`
+in Jupyter and rerunning cell by cell, reading as you go. This notebook will
+give a working example of reinforcement learning using OpenAI Gym.
 
 ## Goal 3 - To JupyterHub and Beyond!
 
