@@ -16,9 +16,11 @@ them directly on your local operating system (which in turn mediates the
 resources from your physical machine) - this is a sensible approach for most
 things, but when you're dealing with complicated projects things can get ugly:
 
-- Inconsistencies deploying across different operating systems
-- Conflicting dependencies across projects (e.g. project 1 wants Python 2,
-  project 2 wants Python 3)
+- Inconsistencies deploying across different operating systems - Windows, Mac,
+  and Linux can have obscure disagreements about everything from case
+  sensitivity to network operations
+- Conflicting dependencies across projects - project 1 wants Python 2, project 2
+  wants Python 3
 - Hidden assumptions - a project works in one environment because it happens to
   have the correct global installation or other dependency, but breaks elsewhere
 
@@ -48,13 +50,34 @@ benefits are significant, and it is a widely used tool in industry.
 
 ## Goal 1 - Hello Docker!
 
-https://www.docker.com/get-docker
+Your first task is to install Docker and verify your success by running a basic
+container. Docker containers are portable, but Docker itself is still
+platform-specific software, so installation will vary. In general, you want the
+free community edition, and you don't need to make a Docker ID unless you intend
+to publish your own Docker containers.
+
+- Download links: https://www.docker.com/community-edition#/download
+- Mac instructions: https://docs.docker.com/docker-for-mac/install/
+- Windows instructions: https://docs.docker.com/docker-for-windows/install/
+
+If you use a command line package management tool there is probably a `docker`
+package available, e.g. `brew cask install docker` on MacOS and similar 
+(distribution-dependent) on Linux.
+
+Once you've installed Docker, you can test by running:
+`docker run hello-world`
+
+You should see and message that says your installation is working, and gives
+instructions and links to take things further. For more details see:
 https://docs.docker.com/samples/library/hello-world/
+
+You should explore the suggested resources, but for now once you've got
+`hello-world` working you should move to the text task.
 
 ## Goal 2 - Docker Compose and Open AI Gym
 
 https://github.com/ageron/handson-ml/tree/master/docker
 
-## Goal 3 - JupyterHub and Beyond
+## Goal 3 - To JupyterHub and Beyond!
 
 https://github.com/jupyterhub/jupyterhub
