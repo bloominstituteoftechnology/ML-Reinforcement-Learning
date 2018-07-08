@@ -13,7 +13,7 @@ Your task is to calculate the total lifetime reward for a given `R` and `gamma`.
 You should clone this repository, open it up locally, and open the file
 `reward.py`. You'll see an empty function called `reward(gamma, R)`. Right now
 it's set to return -1.0. Change it so that it returns the correct answer.
-THIS IS THE ONLY FILE YOU SHOULD EDIT.
+**This is the only file you should edit!**
 
 A resource to review summation notation:
 http://www.columbia.edu/itc/sipa/math/summation.html
