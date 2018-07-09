@@ -1,0 +1,1 @@
+I successfully setup a docker environment and will be using it this week.
