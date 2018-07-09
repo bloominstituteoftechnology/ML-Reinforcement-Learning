@@ -46,7 +46,9 @@ for quickly building, running, and deploying images (operating systems *and*
 running software). A `Dockerfile` gives you a standard reproducible formula for
 the software you're running, and it works the same across platforms. There is a
 learning curve - brushing up on your command line skills is advisable - but the
-benefits are significant, and it is a widely used tool in industry.
+benefits are significant, and it is a widely used tool in industry. For example,
+Colab and similar services are able to provide varied environments to many users
+by creating and destroying containers on demand.
 
 ## Goal 1 - Hello Docker!
 
@@ -103,6 +105,26 @@ Once you've got it working, verify by opening `16_reinforcement_learning.ipynb`
 in Jupyter and rerunning cell by cell, reading as you go. This notebook will
 give a working example of reinforcement learning using OpenAI Gym.
 
-## Goal 3 - To JupyterHub and Beyond!
+## Goal 3 - To Jupyter and Beyond!
 
-https://github.com/jupyterhub/jupyterhub
+Now that you've gotten this far, you can take Docker further by using it to run
+any of several flavors of Jupyter, each tuned to give you a quick start in a
+different subtopic of data science: https://github.com/jupyter/docker-stacks
+
+Pick whichever notebook(s) interest you and try to run them. To turn in, commit
+an example notebook file that runs in the image you used.
+
+At this point, you are using Docker as a consumer, and it's fair to stop here
+and just take advantage of the many great existing Docker images. But if you
+want to go further, you can learn how to use Docker to deploy tools for multiple
+users, and to make your own custom Docker images.
+
+- https://github.com/jupyterhub/jupyterhub - a multi-user notebook server
+- https://docs.docker.com/get-started/part2/ - learn how to make your own
+  `Dockerfile`, which lets you build an image with dependencies you choose
+  
+If you go deep in Docker, you may be interested in orchestration tools such as
+[Kubernetes](https://kubernetes.io/), which enables managing and running large
+numbers of containers. This is how things like compute clusters for big data are
+actually set up and run, and while that's not a skill everyone needs to develop,
+it's certainly a cool topic for people who want to learn it.
