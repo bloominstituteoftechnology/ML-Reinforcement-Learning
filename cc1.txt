@@ -1,0 +1,1 @@
+Completed Goals 1 and 2 of Coding Challenge 1 using Docker.
