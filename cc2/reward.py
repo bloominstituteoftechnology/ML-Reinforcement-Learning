@@ -32,4 +32,4 @@ def reward(R, gamma):
 		coef = gamma ** k
 	return total 
 
-
+# Github Test
