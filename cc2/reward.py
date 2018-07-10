@@ -1,2 +1,2 @@
 def reward(R, gamma):
-	return .932  # TODO
+	return sum([gamma**k*R for k in range(1000)])  # TODO
