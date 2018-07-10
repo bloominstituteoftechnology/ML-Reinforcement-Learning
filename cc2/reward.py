@@ -1,2 +1,6 @@
 def reward(R, gamma):
-	return -1.0  # TODO
+	tot_rew = 0
+	for i in range(1000):
+		rew = (R)*(gamma**i)
+		tot_rew += rew
+	return tot_rew
