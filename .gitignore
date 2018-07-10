@@ -1,2 +1,3 @@
 *.pyc
-*checkpoint.ipynb
+*checkpoint*
+assignment/.ipynb_checkpoints/README-checkpoint.md
