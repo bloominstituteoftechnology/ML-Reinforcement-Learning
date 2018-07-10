@@ -1,5 +1,6 @@
 def reward(R, gamma):
 	expR = 0
-	for k, reward in enumerate(R):
+	k = 0
+	while coef > 0.000001:
 		expR += gamma**k*reward
 	return expR
