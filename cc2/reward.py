@@ -1,2 +1,10 @@
 def reward(R, gamma):
-	return -1.0  # TODO
+
+	for i in range(20):
+
+		discount = gamma ** (i+2)
+		print(R)
+
+		R += R*discount
+
+	return R
