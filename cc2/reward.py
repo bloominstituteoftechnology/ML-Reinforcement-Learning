@@ -1,2 +1,4 @@
 def reward(R, gamma):
-	return -1.0  # TODO
+	for k, reward in enumerate(R):
+		expR += gamma**k*reward
+	return expR
