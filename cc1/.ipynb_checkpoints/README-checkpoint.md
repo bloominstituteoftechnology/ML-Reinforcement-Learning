@@ -1,3 +1,6 @@
+# [Tuesday Lecture](https://youtu.be/S4sJXS0aeEk)
+
+
 # Reinforcement Learning - Coding Challenge 1
 
 In this challenge you'll work on setting up a local environment suitable for
