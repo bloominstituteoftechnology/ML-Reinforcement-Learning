@@ -1,10 +1,10 @@
 def reward(R, gamma):
 
-	for i in range(20):
+	R_life = 0
 
-		discount = gamma ** (i+2)
-		print(R)
+	for k in range(20000):
 
-		R += R*discount
+		discount = gamma ** (k)
+		R_life += R*discount
 
-	return R
+	return R_life
