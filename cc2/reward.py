@@ -4,3 +4,6 @@ def reward(R, gamma):
 		rew = (R)*(gamma**i)
 		tot_rew += rew
 	return tot_rew
+
+
+print(reward(-2.1, 0.32))
