@@ -1,2 +1,2 @@
-def reward(R, gamma):
-	return -1.0  # TODO
+def reward(R, gamma, max_steps=1000):
+    return sum(R*gamma**step for step in range(max_steps))
