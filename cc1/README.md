@@ -110,6 +110,8 @@ give a working example of reinforcement learning using OpenAI Gym.
 
 ## Goal 3 - To Jupyter and Beyond!
 
+*Optional/stretch!*
+
 Now that you've gotten this far, you can take Docker further by using it to run
 any of several flavors of Jupyter, each tuned to give you a quick start in a
 different subtopic of data science: https://github.com/jupyter/docker-stacks
