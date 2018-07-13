@@ -1,0 +1,1 @@
+I got Docker set up and worked my way through Goal 2 on CC#1. 
