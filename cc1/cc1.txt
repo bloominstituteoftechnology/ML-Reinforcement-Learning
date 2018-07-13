@@ -1,0 +1,1 @@
+I got docker working, but will use local installation anyway because it has all my prefered things already installed and bandwidth is limited.

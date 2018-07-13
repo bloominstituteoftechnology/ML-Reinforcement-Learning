@@ -1,2 +1,4 @@
-def reward(R, gamma):
-	return -1.0  # TODO
+from math import log, ceil
+
+def reward(R, gamma, epsilon=.000001):
+    return sum(R*(gamma**step) for step in range(ceil(log(epsilon, gamma))))
