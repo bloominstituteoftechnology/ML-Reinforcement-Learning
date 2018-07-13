@@ -1,2 +1,6 @@
 def reward(R, gamma):
-	return -1.0  # TODO
+	expR = 0
+	k = 0
+	while coef > 0.000001:
+		expR += gamma**k*reward
+	return expR
