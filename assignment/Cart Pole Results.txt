@@ -1,0 +1,90 @@
+after some minutes running the cart pole algorithm had results like this:
+
+Episode = 155
+t = 194
+Action: 1
+State: (0, 0, 2, 1)
+Reward: 1.000000
+Best Q: 90.723718
+Explore rate: 0.207608
+Learning rate: 0.207608
+Streaks: 1
+
+Episode = 160
+t = 176
+Action: 1
+State: (0, 0, 3, 1)
+Reward: 1.000000
+Best Q: 93.037118
+Explore rate: 0.193820
+Learning rate: 0.193820
+Streaks: 6
+
+some minutes later it was interrupted with this error:
+
+Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 808, in wrapper
+handson-ml    |     yield fut
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+handson-ml    |     value = future.result()
+handson-ml    | tornado.iostream.StreamClosedError: Stream is closed
+handson-ml    |
+handson-ml    | During handling of the above exception, another exception occurred:
+handson-ml    |
+handson-ml    | Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+handson-ml    |     yielded = self.gen.throw(*exc_info)
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 810, in wrapper
+handson-ml    |     raise WebSocketClosedError()
+handson-ml    | tornado.websocket.WebSocketClosedError
+handson-ml    | Future exception was never retrieved
+handson-ml    | future: <Future finished exception=WebSocketClosedError()>
+handson-ml    | Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 808, in wrapper
+handson-ml    |     yield fut
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+handson-ml    |     value = future.result()
+handson-ml    | tornado.iostream.StreamClosedError: Stream is closed
+handson-ml    |
+handson-ml    | During handling of the above exception, another exception occurred:
+handson-ml    |
+handson-ml    | Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+handson-ml    |     yielded = self.gen.throw(*exc_info)
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 810, in wrapper
+handson-ml    |     raise WebSocketClosedError()
+handson-ml    | tornado.websocket.WebSocketClosedError
+handson-ml    | Future exception was never retrieved
+handson-ml    | future: <Future finished exception=WebSocketClosedError()>
+handson-ml    | Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 808, in wrapper
+handson-ml    |     yield fut
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+handson-ml    |     value = future.result()
+handson-ml    | tornado.iostream.StreamClosedError: Stream is closed
+handson-ml    |
+handson-ml    | During handling of the above exception, another exception occurred:
+handson-ml    |
+handson-ml    | Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+handson-ml    |     yielded = self.gen.throw(*exc_info)
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 810, in wrapper
+handson-ml    |     raise WebSocketClosedError()
+handson-ml    | tornado.websocket.WebSocketClosedError
+handson-ml    | Future exception was never retrieved
+handson-ml    | future: <Future finished exception=WebSocketClosedError()>
+handson-ml    | Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 808, in wrapper
+handson-ml    |     yield fut
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1099, in run
+handson-ml    |     value = future.result()
+handson-ml    | tornado.iostream.StreamClosedError: Stream is closed
+handson-ml    |
+handson-ml    | During handling of the above exception, another exception occurred:
+handson-ml    |
+handson-ml    | Traceback (most recent call last):
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/gen.py", line 1107, in run
+handson-ml    |     yielded = self.gen.throw(*exc_info)
+handson-ml    |   File "/opt/conda/lib/python3.6/site-packages/tornado/websocket.py", line 810, in wrapper
+handson-ml    |     raise WebSocketClosedError()
+handson-ml    | tornado.websocket.WebSocketClosedError
