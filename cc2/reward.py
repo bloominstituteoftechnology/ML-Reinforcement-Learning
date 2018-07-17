@@ -1,2 +1,10 @@
 def reward(R, gamma):
-	return -1.0  # TODO
+
+	R_life = 0
+
+	for k in range(20000):
+
+		discount = gamma ** (k)
+		R_life += R*discount
+
+	return R_life

@@ -1,0 +1,1 @@
+I was able to get the docker container running but non of the jupyter notebook show up. Also I am not able to create a notebook. I think it is a permission issue.
