@@ -21,7 +21,7 @@ http://www.columbia.edu/itc/sipa/math/summation.html
 ## Testing your solution
 
 The correctness of your code will be tested with `unittest`, a testing library
-built in to Python. You can run tests in this directory as follows:
+built into Python. You can run tests in this directory as follows:
 
 `python test_reward.py --verbose`
 
